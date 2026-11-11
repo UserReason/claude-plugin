@@ -1,0 +1,25 @@
+{
+  "name": "userreason",
+  "displayName": "UserReason",
+  "version": "1.0.0",
+  "description": "Ask users a question inside your app and read their answers with context. Review in-app survey results and responses, check why a person does or does not get a survey, and draft, validate and publish surveys with your approval.",
+  "author": {
+    "name": "UserReason",
+    "email": "contact@userreason.com",
+    "url": "https://userreason.com"
+  },
+  "homepage": "https://userreason.com/for-agents/",
+  "repository": "https://github.com/UserReason/claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "surveys",
+    "user-feedback",
+    "in-app-surveys",
+    "product-research"
+  ],
+  "icon": "./logo.png",
+  "documentationUrl": "https://docs.userreason.com/agents/",
+  "supportUrl": "https://userreason.com/support/",
+  "privacyPolicyUrl": "https://userreason.com/privacy/",
+  "termsOfServiceUrl": "https://userreason.com/terms/"
+}

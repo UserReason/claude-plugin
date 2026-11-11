@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "userreason": {
+      "type": "http",
+      "url": "https://api.userreason.com/mcp"
+    }
+  }
+}
