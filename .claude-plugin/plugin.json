@@ -1,7 +1,7 @@
 {
   "name": "userreason",
   "displayName": "UserReason",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ask users a question inside your app and read their answers with context. Review in-app survey results and responses, check why a person does or does not get a survey, and draft, validate and publish surveys with your approval.",
   "author": {
     "name": "UserReason",
@@ -10,6 +10,8 @@
   },
   "homepage": "https://userreason.com/for-agents/",
   "repository": "https://github.com/UserReason/claude-plugin",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
   "license": "MIT",
   "keywords": [
     "surveys",

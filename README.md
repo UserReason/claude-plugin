@@ -11,19 +11,22 @@ The plugin contains no scripts, hooks or local programs. It runs nothing on your
 
 ## Install
 
-In Claude, open Customize, then Plugins, and add UserReason. To try it from a clone of this repository in Claude Code:
+In Claude, open Plugins and add the UserReason plugin. Its Skills section must list `userreason`. The separate **UserReason: Surveys** connector provides the account tools; installing only that connector does not add the skill.
+
+The installation wizard is not required to use the skill. To try the plugin locally, run this from the root of a clone of this repository:
 
 ```sh
-claude --plugin-dir ./claude-plugin
+claude --plugin-dir .
 ```
 
 ## How to use it
 
-1. Connect UserReason from the plugin's Connectors tab. You sign in with your UserReason account in the browser.
-2. Ask a question, for example "How are my surveys doing over the last 30 days?".
-3. The first time, Claude gives you an approval link. Open it, choose the workspace and permissions in the UserReason dashboard, and approve. You can narrow or revoke that access there at any time.
+1. Type `/` and select the UserReason skill. In Claude Code its full command is `/userreason:userreason`; `/userreason` also works when no other command uses that name. If a newly installed skill does not appear, start a new session.
+2. Ask a question, for example "How are my surveys doing over the last 30 days?". You can also ask the question directly and let Claude select the skill. Invoking the skill without a question shows what it can help with.
+3. For account tasks, connect UserReason from the plugin's Connectors section. You sign in with your UserReason account in the browser.
+4. The first time an account task needs access, Claude gives you an approval link. Open it, choose the workspace and permissions in the UserReason dashboard, and approve. You can narrow or revoke that access there at any time.
 
-You need a UserReason account. Reading real results also needs a site with the UserReason SDK installed.
+You need a UserReason account for account tasks. Reading real results also needs a site with the UserReason SDK installed. The wizard helps install the SDK in an application; it does not enable the slash command.
 
 More example requests:
 

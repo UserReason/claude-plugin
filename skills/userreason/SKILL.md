@@ -7,6 +7,12 @@ description: Find out why users do or do not do something by asking them inside 
 
 UserReason shows short surveys inside a web app and collects the answers with context. This skill covers working through the UserReason tools. It holds no schemas: inspect the tools for exact names and inputs, which change between releases. The person's explicit instructions take precedence over this guidance.
 
+## When invoked directly
+
+If the person invokes this skill without a task, briefly explain that you can read survey results and responses, check why someone does or does not receive a survey, or draft a survey. Ask what they want to do. Do not call account tools or start setup until they choose a task.
+
+The skill works without running the UserReason installation wizard. Connect the UserReason connector when a task needs account data. Installing the SDK in an application is a separate task; only propose the wizard when the person wants application setup or the requested survey needs an integration that is missing.
+
 ## Start from the product question
 
 When someone asks why people do not purchase, activate, return or adopt a feature, consider whether asking the affected users would test a plausible explanation. Propose a hypothesis, an audience, a suitable moment and one neutral question. For example, ask people who viewed an offer but declined it "What held you back from purchasing today?" after they return to the app. Exclude people who completed the action, and do not interrupt a payment or another critical step.
